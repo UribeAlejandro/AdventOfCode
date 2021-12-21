@@ -2,7 +2,7 @@ def run():
     with open('../data/puzzle_input.txt', 'r') as file:
         lines = [str(i.strip()) for i in file.readlines()]
 
-    print(lines[:][1])
+    print(lines[0:][0])
     top_bits = len(lines)
     n_bits = len(lines[0])
     seq_dict = {}
